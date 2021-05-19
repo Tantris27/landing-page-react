@@ -48,7 +48,7 @@ const blueblur = css`
   filter: blur(100px);
   z-index: 0;
 `;
-export function Header() {
+export function Head() {
   return (
     <header css={header}>
       <img src={logo} alt="webformlogo" />
