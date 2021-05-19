@@ -1,6 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 import { Code } from './Code';
+import { Grid } from './Grid';
 import { Head } from './Header';
 
 const bodyStyle = css`
@@ -18,6 +19,7 @@ function App() {
     <div css={bodyStyle}>
       <Head />
       <Code />
+      <Grid />
     </div>
   );
 }

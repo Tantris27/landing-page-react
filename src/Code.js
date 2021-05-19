@@ -98,9 +98,8 @@ const playSpanStyle = css`
 `;
 const hoverStyle = css`
   position: absolute;
-  /* display: none; */
   left: 410px;
-  bottom: -130px;
+  bottom: -135px;
   width: 700px;
   height: 350px;
   z-index: 10;
