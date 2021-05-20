@@ -70,12 +70,28 @@ to {
 width: 45%;
 }
 `;
+const typing2 = keyframes`
+from {
+width: 0;
+}
+to {
+width: 29%;
+}
+`;
 const tokenCode5 = css`
   display: inline-flex;
   color: #e6db74;
   overflow: hidden;
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   animation: ${typing} 5s steps(32) forwards;
+  width: 0;
+`;
+const tokenCode6 = css`
+  display: inline-flex;
+  color: #e6db74;
+  overflow: hidden;
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: ${typing2} 5s steps(20) forwards 5s;
   width: 0;
 `;
 
@@ -173,7 +189,7 @@ export function Code() {
               <span css={tokenCode1}>" </span>
               <span css={tokenCode3}>value</span>
               <span css={tokenCode1}>="</span>
-              <span css={tokenCode4}>YOUR_ACCESS_KEY_HERE</span>
+              <span css={tokenCode6}>YOUR_ACCESS_KEY_HERE</span>
               <span css={tokenCode1}>"</span>
               <span css={tokenCode1}>{'>'} </span>
               <br />
