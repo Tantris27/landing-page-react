@@ -24,7 +24,7 @@ const gridstyles = css`
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px 50px;
   margin: 100px 0 0 160px;
-  width: 1080px;
+  width: 1120px;
   height: 450px;
 `;
 const gridDivStyle = css`

@@ -3,6 +3,7 @@ import { css } from '@emotion/react';
 import { Code } from './Code';
 import { Grid } from './Grid';
 import { Head } from './Header';
+import { Works } from './HowItWorks';
 
 const bodyStyle = css`
   background-color: rgba(15, 23, 42, 1);
@@ -20,6 +21,7 @@ function App() {
       <Head />
       <Code />
       <Grid />
+      <Works />
     </div>
   );
 }

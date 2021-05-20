@@ -46,8 +46,6 @@ const codeDivStyle = css`
   height: 350px;
   background-color: rgb(28 38 60);
   line-height: 1.5;
-  :hover {
-  }
 `;
 
 const tokenCode1 = css`
